@@ -1,0 +1,28 @@
+list1=[1,2,3]
+list2=[4,5,6,5]
+list3=[]
+list1.extend(list2)
+x=list1.count(5)
+print(list1)
+print(x)
+# list1.clear()
+# print(list1)
+y=list2.index(6)
+print(y)
+list2.append(56)
+print(list2)
+list3=list1.copy()
+print(list3)
+list1.insert(2,'vijay')
+print(list1)
+list3.pop(4)
+print(list3)
+list2.remove(56)
+print(list2)
+list1.reverse()
+print(list1)
+list4=['pranay','teja','roja','kuja']
+list4.sort()
+print(list4)
+list4.reverse()
+print(list4)
